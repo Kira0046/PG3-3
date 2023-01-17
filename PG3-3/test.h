@@ -1,22 +1,10 @@
 #pragma once
 #include <stdio.h>
 
-
-class TestSingleton final{
-private:
-	TestSingleton();
-	
-	~TestSingleton();
-
-	
-
+class Student {
+protected:
 public:
-	TestSingleton(const TestSingleton& obj) = delete;
-	TestSingleton& operator=(const TestSingleton&obj)= delete;
-
-
-	static TestSingleton* GetInstance();
-
-	void memberFunc();
-
+	static int studentCount;
+	Student() { studentCount++; }
+	~Student() { studentCount--; }
 };
