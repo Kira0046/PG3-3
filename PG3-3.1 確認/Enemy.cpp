@@ -13,17 +13,17 @@ Enemy::Enemy()
 
 void Enemy::Charge()
 {
-	printf("Ú‹ß\n");
+	printf("Ú‹ß\n\nn");
 }
 
 void Enemy::Shoot()
 {
-	printf("ËŒ‚\n");
+	printf("ËŒ‚\n\n");
 }
 
 void Enemy::Back()
 {
-	printf("—£’E\n");
+	printf("—£’E\n\n");
 }
 
 void Enemy::Update()
