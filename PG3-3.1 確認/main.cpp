@@ -14,5 +14,6 @@ int main() {
 
 	printf("\n“G‚Ì”:%d\n", Enemy::EnemyCount);
 
+
 	return 0;
 }
