@@ -1,8 +1,23 @@
-#include "SceneManager.h"
+#include "Enemy.h"
+#include <stdio.h>
+#include <Windows.h>
 
 int main() {
-	SceneManager::GetInstance()->ShowScene();
-	SceneManager::GetInstance()->SceneChange();
+	Enemy* enemy = new Enemy();
+	int count = 0;
+
+	while (true)
+	{
+		printf("3•bŒã‚É‚Ö‚ñ‚±‚¤\n");
+		Sleep(3 * 1000);
+		enemy->Update();
+		count += 1;
+		if (count > 6) {
+			break;
+		}
+
+	}
+	
 
 	return 0;
 }
