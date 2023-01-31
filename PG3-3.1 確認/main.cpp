@@ -1,8 +1,15 @@
-#include "SceneManager.h"
+#include "Circle.h"
+#include "Rectangle.h"
 
 int main() {
-	SceneManager::GetInstance()->ShowScene();
-	SceneManager::GetInstance()->SceneChange();
+	Circle* circle = new Circle();
+	Rectangle* rectangle = new Rectangle();
 
+	circle->size();
+	circle->draw();
+
+	rectangle->size();
+	rectangle->draw();
+	
 	return 0;
 }
