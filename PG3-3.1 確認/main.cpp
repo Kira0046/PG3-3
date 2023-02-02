@@ -17,7 +17,8 @@ int main() {
 		}
 
 	}
-	
+
+	delete enemy;
 
 	return 0;
 }
