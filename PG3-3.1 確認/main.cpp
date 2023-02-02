@@ -10,6 +10,9 @@ int main() {
 
 	rectangle->size();
 	rectangle->draw();
-	
+
+	delete circle;
+	delete rectangle;
+
 	return 0;
 }

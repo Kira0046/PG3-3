@@ -1,7 +1,8 @@
 #include "test.h"
+#include <stdio.h>
 
 int main() {
-	TestSingleton::GetInstance()->memberFunc();
-
+	
+	printf("Hello world");
 	return 0;
 }
